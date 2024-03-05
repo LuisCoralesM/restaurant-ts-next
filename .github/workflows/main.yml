@@ -1,10 +1,10 @@
-name: Deploy Torchlight Engine
+name: Test and build app
 on:
   push:
     branches:
       - "**"
 jobs:
-  test:
+  test-build-app:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
